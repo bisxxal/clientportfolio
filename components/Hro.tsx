@@ -3,15 +3,15 @@ import React from 'react'
 
 function Hro() {
   return (
-    <div className=' w-full h-  overflow-hidden'>
+    <div className=' w-full h-  overflow-hidden' id="portfolio">
         <div className=' pt-10  w-full h-[38%] max-md:h-[30%] text-center max-md:text-6xl max-lg:text-7xl text-8xl  font-extrabold'>
             <h1 className='mb-3 logo'>Digital Marketing</h1>
 
             <div  className='text-lg gap-6 max-md:gap-1 max-md:text-sm font-normal flex text-center justify-center'>  
-            <p> About me |</p>
-            <p> Marketing constiancy |</p> 
-            <p> portfolio |</p>
-            <p> Contact </p>
+            <a href="#about"><p>About me |</p></a>
+            <a href="#marketing"><p>Marketing Consultancy |</p></a>
+            <a href="#portfolio"><p>Portfolio |</p></a>
+            <a href="#contact"><p>Contact</p></a>
              </div>
         </div>
 
@@ -27,13 +27,7 @@ function Hro() {
     
 
         <div className=' w-full max-md:flex-col flex h-[70vh] px-20 max-md:px-5'>
- 
-
-            {/* <div className=' w-1/2 max-md:w-full h-full flex flex-col justify-center '>
-            <h1 className=' text-6xl text-gray-300 font-bold'>Hello&apos; I&lsquo;m Rahul. </h1>
-            <p className=' max-md:text-sm mt-10 text-xl'>I&lsquo;m a Marketing & Digital Marketing  </p>
-            <p className=' max-md:text-sm  text-xl'>   Freelancer With a great passion about real</p>
-            <p className=' max-md:text-sm  text-xl'>   and honest conversations </p> */}
+  
 
             <div className='w-1/2 max-md:w-full h-full flex flex-col justify-center'>
                 <h1 className='text-6xl text-gray-300 font-bold'>Hello! I&apos;m Rahul.</h1>

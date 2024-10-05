@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className=' max-md:h-[75vh] h-[80vh] mt-32 max-md:mt-20 '>
+    <div className=' max-md:h-[75vh] h-[80vh] mt-32 max-md:mt-20 '  id="about">
       <h1 className=' max-md:text-2x3 text-7xl font-bold text-center max-md:pt-10 logo'>About Me</h1>
       
       <div className=' max-lg:text-3xl max-md:text-xl ax-md:-mt-14 -mt-20 text-center text-5xl w-[85%] h-full flex flex-col items-center justify-center mx-auto fon-semibold' >

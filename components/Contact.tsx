@@ -30,8 +30,7 @@ function Contact() {
   };
   
   return (
-    <div className=' w-full h-screen  max-md:mt-0  mt-40 flex items-center justify-center'>
-
+    <div className=' w-full h-screen  max-md:mt-0  mt-40 flex items-center justify-center' id="contact">
         <div className='flex max-md:flex-col w-[90%] secondcol frame2 inshadow h-[95%] rounded-2xl  overflow-hidden'>
             <form  onSubmit={onSubmit} className=' w-1/2 max-md:w-full p-20 max-md:p-5'>
                <div className='max-md:text-4xl text-7xl font-semibold max-lg:text-5xl  '> <h1>Lets Work  </h1> <span className=' logo'>together !!</span></div>

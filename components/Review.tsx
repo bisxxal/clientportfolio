@@ -124,7 +124,7 @@ const ReviewCard = ({
 
  function MarqueeDemo() {
   return (
-    <div className="relative !bg-[#0f0715] text-white h-[90vh] mt-10 max-md:mt-0  flex h-[500px w-full flex-col items-center justify-center overflow-hidden rounded-lg  md:shadow-xl">
+    <div className="relative !bg-[#0f0715] text-white h-[90vh] mt-10 max-md:mt-0  flex h-[500px w-full flex-col items-center justify-center overflow-hidden rounded-lg  md:shadow-xl" id="marketing">
      <h1 className=" mb-16 max-md:text-5xl text-center w-full text-7xl font-semibold logo ">Clients Testimonials</h1>
     
       <Marquee pauseOnHover className="[--duration:20s]">
