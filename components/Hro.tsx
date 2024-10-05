@@ -29,12 +29,18 @@ function Hro() {
         <div className=' w-full max-md:flex-col flex h-[70vh] px-20 max-md:px-5'>
  
 
-            <div className=' w-1/2 max-md:w-full h-full flex flex-col justify-center '>
-            <h1 className=' text-6xl text-gray-300 font-bold'>Hello, I'm Rahul. </h1>
-            <p className=' max-md:text-sm mt-10 text-xl'>I'm a Marketing & Digital Marketing•</p>
+            {/* <div className=' w-1/2 max-md:w-full h-full flex flex-col justify-center '>
+            <h1 className=' text-6xl text-gray-300 font-bold'>Hello&apos; I&lsquo;m Rahul. </h1>
+            <p className=' max-md:text-sm mt-10 text-xl'>I&lsquo;m a Marketing & Digital Marketing  </p>
             <p className=' max-md:text-sm  text-xl'>   Freelancer With a great passion about real</p>
-            <p className=' max-md:text-sm  text-xl'>   and honest conversations </p>
-           
+            <p className=' max-md:text-sm  text-xl'>   and honest conversations </p> */}
+
+            <div className='w-1/2 max-md:w-full h-full flex flex-col justify-center'>
+                <h1 className='text-6xl text-gray-300 font-bold'>Hello! I&apos;m Rahul.</h1>
+                <p className='max-md:text-sm mt-10 text-xl'>I&apos;m a Marketing & Digital Marketing Freelancer with a great passion for real</p>
+                <p className='max-md:text-sm text-xl'>and honest conversations.</p>
+            {/* </div> */}
+            
            <button className=' border-2 border-[#ffffff42] h-10 w-44 mt-5 rounded-xl'>How can i help you</button>
             </div>
 

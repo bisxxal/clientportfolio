@@ -12,12 +12,12 @@ function Fotter() {
 
             <div className=" text-4xl hover:text-[#ff0749] transition-all ">
 
-                <a target="_blank" href="https://www.instagram.com/rahul_raj_21_/profilecard/?igsh=dGx5YzY1cWRxcjNp">
+                <a target="_blank" href="https://www.instagram.com/rahul_raj_21_/?igsh=dGx5YzY1cWRxcjNp">
                   <FaInstagram />
                 </a>
             </div>
             <div className=" text-4xl hover:text-[#ff0749] transition-all ">
-                <a target="_blank" href="https://www.instagram.com/withayusman/profilecard/?igsh=b2ZicHl0bXA4ZWQy">
+                <a target="_blank" href="https://www.instagram.com/withayusman?igsh=NTNkajU4aHlhOHht">
                    <FaInstagram />
                 </a>
             </div>
@@ -25,7 +25,7 @@ function Fotter() {
 
         </div>
 
-        <p className=' text-center text-gray-400 text-lg'>© 2024 ALL RIGHTS RESERVED</p>
+        <p className=' text-center text-gray-400 text-base'>© 2024 ALL RIGHTS RESERVED</p>
     </div>
   )
 }
